@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "legitclient",
+  "version": "${version}",
+  "name": "Legitclient",
+  "description": "",
+  "authors": [
+    "MartinTintin3"
+  ],
+  "contact": {
+    "repo": "https://github.com/martinGITHUBER/LegitClient"
+  },
+  "license": "MIT",
+  "icon": "assets/legitclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.martintintin3.legitclient.LegitClient"
+    ],
+  },
+  "mixins": [
+    "legitclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.2",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
