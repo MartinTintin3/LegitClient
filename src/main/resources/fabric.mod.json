@@ -16,7 +16,7 @@
   "entrypoints": {
     "client": [
       "com.martintintin3.legitclient.LegitClient"
-    ],
+    ]
   },
   "mixins": [
     "legitclient.mixins.json"
